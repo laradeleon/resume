@@ -3,8 +3,6 @@ layout: page
 title: Lara De Leon - Resume
 ---
 
-# Lara De Leon
-
 ## Education
 
 **University of Manitoba**  
