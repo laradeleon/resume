@@ -3,8 +3,6 @@ layout: page
 title: ""
 ---
 
-# Lara De Leon
-
 ## Education
 
 **University of Manitoba**  
