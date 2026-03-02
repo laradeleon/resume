@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Lara De Leon
+title: ""
 ---
+
+# Lara De Leon
 
 ## Education
 
@@ -70,6 +72,7 @@ Human-Computer Interaction Lab
 - Implemented realistic ball and club dynamics using colliders, rigidbodies, and collision detection  
 - Used the project to evaluate the accuracy and responsiveness of VR physical interaction systems  
 **Technologies:** C#, Unity, OpenXR
+
 ---
 
 ### **Space Lab** - VR Interaction Environment  
