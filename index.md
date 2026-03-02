@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lara De Leon - Resume
+title: Resume
 ---
 
 ## Education
