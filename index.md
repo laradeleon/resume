@@ -11,26 +11,6 @@ Bachelor of Science in Computer Science (Major)
 
 ---
 
-## Teaching & Academic Experience
-
-**Grader – COMP 3350: Software Engineering 1**  
-*Summer 2025 – Present*  
-- Conduct in-depth code reviews of Android Studio group projects to evaluate adherence to software design principles, including SOLID guidelines  
-- Assess project structure, implementation quality, and maintainability  
-- Tested application functionality, identified bugs and verified expected behavior
-- Review GitLab repositories for effective organization, issue tracking, and project management practices
-  
-**Grader – Introductory Computer Science (COMP 1010 & COMP 1020)**  
-*July 2024 – April 2025*  
-- Evaluated programming assignments, term tests, and final examinations in Java  
-- Assessed student submissions using CodeGrade and provided detailed written feedback  
-- Gave constructive feedback on code correctness, style, and problem-solving approaches  
-
-**Teaching Assistant – COMP 1020: Introductory Computer Science 2**  
-- Assisted students during in-class work sessions in a flipped classroom environment  
-- Answered questions on Java programming concepts and guided students through exercises  
-
----
 
 ## Research Experience
 
@@ -49,6 +29,71 @@ Supervised by Dr. Celine Latulipe in the Human-Computer Interaction Lab
 - Implemented hand tracking, player movement, and physics-based interactions   
 - Worked with collision detection, force application, and physics tuning to simulate real-world behavior  
 - Gained hands-on experience with VR development workflows and immersive system design  
+
+---
+## Teaching & Academic Experience
+
+**Grader (Software Engineering 1)**  
+*Summer 2025 – Present*  
+- Conduct in-depth code reviews of Android Studio group projects to evaluate adherence to software design principles, including SOLID guidelines  
+- Assess project structure, implementation quality, and maintainability  
+- Tested application functionality, identified bugs and verified expected behavior
+- Review GitLab repositories for effective organization, issue tracking, and project management practices
+  
+**Grader (Introductory Computer Science 1 & 2)**  
+*July 2024 – April 2025*  
+- Evaluated programming assignments, term tests, and final examinations in Java  
+- Assessed student submissions using D2L and CodeGrade and provided detailed written feedback  
+- Gave constructive feedback on code correctness, style, and problem-solving approaches  
+
+**Teaching Assistant (Introductory Computer Science 2)**  
+- Assisted students during in-class work sessions in a flipped classroom environment  
+- Answered questions on Java programming concepts and guided students through exercises
+
+
+---
+## Projects
+
+### **TheBoard** — Campus Events Platform  
+*University of Manitoba · .devHacks 2026*  
+- Developed a centralized web platform to showcase all on-campus events
+- Implemented a poster “booklet” feature using TypeScript, allowing users to flip through event posters sequentially  
+- Focused on front-end development, layout design, and visual consistency across components built by multiple team members  
+**Technologies:** TypeScript, JavaScript, HTML, CSS  
+
+---
+
+### **VR Mini Golf Game**  
+- Built a fully playable virtual reality mini golf game using Unity and OpenXR to explore physics-based interactions  
+- Implemented realistic ball and club dynamics using colliders, rigidbodies, and collision detection  
+- Used the project to evaluate the accuracy and responsiveness of VR physical interaction systems  
+**Technologies:** C#, Unity, OpenXR, 3D Design  
+
+---
+
+### **Space Lab** — VR Interaction Environment  
+*University of Manitoba*  
+- Created a space-themed virtual reality environment to experiment with interaction design and spatial mechanics  
+- Implemented object manipulation systems including grab, throw, snap-grab, and socket-based placement  
+- Designed multiple locomotion methods such as teleportation, climbing mechanics, continuous movement, and smooth/snap turning  
+**Technologies:** C#, Unity, Virtual Reality  
+
+---
+
+### **“A Week at a Glance” — Scheduling Application**  
+- Developed a scheduling application providing monthly overviews and detailed daily timelines  
+- Implemented task creation, editing, deletion, and filtering by priority and tags  
+- Worked primarily on the business logic layer, including validation and data consistency  
+- Built and maintained unit tests; performed refactoring and bug fixes across multiple iterations  
+**Technologies:** Java, JavaFX, HSQLDB  
+
+---
+
+### **Steam Game Analytics System**  
+- Designed and implemented a relational database using real-world Steam data  
+- Developed a Java-based command-line interface for database interaction and query execution  
+- Enabled analysis of top-performing games, developer trends, player vs. critic reception, and platform support  
+**Technologies:** Java, SQL, Relational Databases  
 
 ---
 
