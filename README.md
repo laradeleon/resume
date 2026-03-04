@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This README is for anyone who wants to publish a formatted resume as a live website and has basic familiarity with Markdown and simple command line steps. By the end of this guide, you’ll have your resume written in Markdown, converted into a website using Jekyll, and hosted publicly on GitHub Pages.
+This guide is for anyone who wants to publish a resume as a live website. It assumes basic familiarity with Markdown and simple command‑line steps. By the end, you will have written your resume in Markdown, applied a Jekyll theme, and published the site publicly using GitHub Pages.
 
 ## Prerequisites
 
@@ -10,9 +10,9 @@ Before beginning, make sure you have the following ready:
 
 1. A resume 
     - A plain text or Word version
-2. A GitHub account - sign up for free at https://github.com/  
+2. A **GitHub** account - sign up for free at https://github.com/  
     - GitHub is a platform for hosting code and documents using version control
-3. Git - download it at https://git-scm.com/install  
+3. **Git** - download it at https://git-scm.com/install  
     - Git is the version control software that tracks changes to your files and syncs them with GitHub
 4. A Markdown text editor  
     - **Visual Studio Code** - free to download at https://code.visualstudio.com
@@ -25,9 +25,11 @@ No prior experience with Git, GitHub, or building websites is required.
 
 ### Step 1: Create a repository on GitHub
 
-1. Go to [https://github.com](https://github.com) and log in to your account.
+1. Go to [https://github.com](https://github.com) and log in to your account
 
-2. Click the **+** on the top right corner of the page and select **New repository**
+2. Click the **+** on the top right corner of the page
+
+3. Select **New repository**
 
 3. In the **Repository name** field, type exactly: `yourusername.github.io`, replacing `yourusername` with your actual GitHub username 
     - e.g., `marvinmclaren.github.io`. 
@@ -45,17 +47,20 @@ No prior experience with Git, GitHub, or building websites is required.
 
 *Cloning* means making a copy of the project onto your computer while keeping it linked to GitHub. This means any changes made can be uploaded back to the website.
 
-1. Open your terminal 
-    - **Windows**: search for "Command Prompt"
-    - **Mac**: search for "Terminal"
+1. Open the search bar on your computer
 
-2. Navigate to a folder where you want to store the project. For example, to go to your Desktop folder, type:
+2. Type **Command Prompt** (Windows) or **Terminal** (Mac)
+
+3. Open the application
+
+4. Navigate to a folder where you want to store the project
+- For example, to go to your Desktop folder, type:
 
 ```
 cd Desktop
 ```
 
-3. Clone your new repository to your computer by typing:
+5. Clone your repository by typing:
 
 ```
 git clone https://github.com/yourusername/yourusername.github.io
@@ -63,10 +68,10 @@ git clone https://github.com/yourusername/yourusername.github.io
 
 Replace `yourusername` with your actual GitHub username.
 
-4. Open the project in Visual Studio Code
-   - Open **Visual Studio Code**  
-   - In the top-left menu, click **File > Open Folder…**  
-   - Navigate to the folder named `yourusername.github.io` (the one you just cloned)  
+6. Open **Visual Studio Code**  
+   - Click **File** in the top-left menu
+   - Click **Open Folder**
+   - Navigate to the folder named `yourusername.github.io` 
    - Click **Open**
 
 ---
@@ -74,7 +79,7 @@ Replace `yourusername` with your actual GitHub username.
 ### Step 3: Write your resume in Markdown
 
 1. Create a new file in the folder and name it `index.md`
-2. Begin your file with the following lines exactly:
+2. Add the following lines at the top of the file:
    
    ```
    ---
@@ -83,7 +88,7 @@ Replace `yourusername` with your actual GitHub username.
    ---
    ```
 
-3. Write the content of your resume underneath those lines using Markdown formatting
+3. Write the content of your resume underneath those lines using Markdown
 
 
 A short example looks like this:
@@ -109,7 +114,7 @@ A short example looks like this:
 
 GitHub Pages uses Jekyll automatically so no installation is required. Only a small configuration file needs to be added.
 
-1. Create a new file in your project folder named `_config.yml`
+1. Create a new file in your project folder and name it `_config.yml`
 2. Add the following content to the file:
 
 ``` yaml
@@ -118,34 +123,39 @@ theme: minima # Jekyll's default theme
 ```
 
 
+> **Note ("Make Static Websites"):** A static site generator, like Jekyll, takes your Markdown file and your chosen theme and creates a website with the specified styling. Unlike dynamic websites that require a database and a running server to generate pages, a static site is prebuilt HTML that's served directly to your browser. This makes it faster and simpler to maintain.
 
-> **Note ("Make Static Websites"):** A *static site generator* like Jekyll takes your Markdown file and your chosen theme and creates a website with the specified styling. Unlike dynamic websites that require a database and a running server to generate pages, a static site is prebuilt HTML that's served directly to your browser. This makes it faster and simpler to maintain.
-
---
+---
 
 ### Step 5: Commit and push your files to GitHub
 
 *Commit* means creating a “snapshot” of your work. This is like a saved checkpoint we can return to later. *Push* is uploading that snapshot to GitHub so it appears online. Once the `index.md` and `_config.yml` files are saved, the next step is to send those changes to GitHub so the website can update.
 
-1. In Visual Studio Code, open the built‑in terminal:  
-   - Go to the top menu and select **Terminal > New Terminal**.
+1. Open **Visual Studio Code**
 
-2. In the terminal that appears at the bottom of VS Code, type:
+2. Open the built‑in terminal by clicking **Terminal** in the top menu
+
+
+3. Click **New Terminal**
+
+4. Type:
 
    ```
    git add .
    ```
    This tells Git to include all the new and changed files in the next save point.
-2. Commit (save) your changes with a short description:
+
+
+5. Commit your changes by typing:
    ```
    git commit -m "Add resume and Jekyll config"
    ```
-3. Push (upload) your changes to GitHub:
+6. Push (upload) your changes to GitHub by typing:
    ```
    git push
    ```
 
-> **Note ("Publish Frequently"):** Etter emphasizes that publishing should not be a special event and it should be quick. The three commands above (`add`, `commit`, `push`) is all that's need to update your live website. 
+> **Note ("Publish Frequently"):** Etter emphasizes that publishing should not be a special event and it should be quick. The three commands above (`add`, `commit`, `push`) is all that is needed to update your live website. 
 
 ## Step 6: View your website
 
@@ -155,8 +165,6 @@ Wait up to two minutes after pushing. GitHub Pages may need a minute or two to b
 
 
 2. You should see your resume rendered!
-
-> **Note:** If changes do not appear right away, wait two minutes and try again. If the problem persists, try refreshing the page: `Ctrl + Shift + R` on Windows or `Cmd + Shift + R` on Mac.
 
 ## Further Resources/Readings
 
@@ -172,12 +180,23 @@ Wait up to two minutes after pushing. GitHub Pages may need a minute or two to b
 - [**Jekyll Theme Collection**](https://github.com/topics/jekyll-theme) (GitHub)
     - A gallery of free Jekyll themes
 
+## Frequently Asked Questions
+
+**Why is Markdown better than writing raw HTML for a resume?**
+
+Writing in HTML requires you to wrap every piece of content in tags. For example, a heading would look like `<h2>Experience</h2>`, and a bulleted list would require several nested tags for each item. This clutters the file and makes it harder to read your content while you are editing. Markdown reads naturally in any text editor, even before it is converted to a website. As Etter describes, lightweight markup keeps the writers focused on the content, not the syntax.
+
+**I updated my resume in Markdown and pushed the changes to GitHub. Why don't I see the changes when I refresh the website in my browser?**
+
+There are two possible causes. First, GitHub Pages needs about one to two minutes to rebuild your site after you push your changes. If you refresh immediately, you may still see the previous version. Second, your browser may have cached a local copy of the old page. Force it to load the most recent version by refreshing: `Ctrl + Shift + R` on Windows or `Cmd + Shift + R` on Mac. 
+
+
 ## Credits
 
 This README was written for COMP 2600: Technical Communication in Computer Science, Winter 2026, University of Manitoba.
 
 **Peer review contributors:**
-- Ill add this later...
+- I'll add this later...
 
 **Third‑party content:**
 - Jekyll Primer theme, licensed under the MIT License: https://github.com/pages-themes/primer
