@@ -16,10 +16,11 @@ Bachelor of Science in Computer Science (Major)
 **Undergraduate Research Assistant - Computer Science Education**  
 *March 2024 - Present*  
 University of Manitoba  
-Supervised by Dr. Celine Latulipe, Human-Computer Interaction Lab
-- Collaborated on the development of a workbook of scaffolded Java programming exercises for COMP1020  
-- Conducted a semi-structured interview study evaluating the effectiveness of scaffolded exercises in promoting active learning  
-- Contributed to an academic paper by authoring the Results section  
+Human-Computer Interaction Lab, Supervised by Dr. Celine Latulipe 
+- Collaborated on the development of a scaffolded Java programming workbook for COMP1020 to support active learning in a flipped classroom
+- Created 20+ scaffolded Java exercises and wrote overviews for all 16 workbook sections
+- Conducted semi-structured interviews to evaluate student use and perceptions of the workbook, assessing engagement and learning outcomes
+- Authored the Results section of a research paper, analyzing student usage and summarizing insights on engagement and platform tradeoffs
 
 **Undergraduate Research Assistant - Virtual Reality**  
 *May 2025 - August 2025*  
@@ -27,8 +28,7 @@ University of Manitoba
 Human-Computer Interaction Lab
 - Designed and developed interactive virtual reality environments using Unity 6  
 - Built a virtual mini golf game featuring multiple courses and physics-based gameplay  
-- Implemented hand tracking, player movement, and interactive systems  
-- Worked extensively with collision detection, force application, and physics tuning to simulate real-world behavior  
+- Implemented hand tracking, player movement, collision detection and force application to simulate real-world behaviour  
 - Gained hands-on experience with immersive system design and VR development workflows  
 
 ---
@@ -37,7 +37,7 @@ Human-Computer Interaction Lab
 
 **Grader - Software Engineering 1**  
 *Summer 2025 - Present*  
-- Conduct in-depth code reviews of Android Studio group projects, evaluating adherence to software design principles including SOLID 
+- Conduct in-depth code reviews of Android Studio projects, evaluating adherence to software design principles
 - Assess project structure, implementation quality, readability and maintainability  
 - Test application functionality, identify bugs and verify expected behavior across features  
 - Review GitLab repositories for effective organization, issue tracking, and project management practices  
