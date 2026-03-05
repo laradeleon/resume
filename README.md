@@ -190,7 +190,8 @@ There are two possible causes. First, GitHub Pages needs about one to two minute
 This README was written for COMP 2600: Technical Communication in Computer Science, Winter 2026, University of Manitoba.
 
 **Peer review contributors:**
-- I'll add this later...
+- Eunice Taborlupa
+- Palak Patel
 
 **Third‑party content:**
 - Jekyll Primer theme, licensed under the MIT License: https://github.com/pages-themes/primer
