@@ -45,34 +45,29 @@ No prior experience with Git, GitHub, or building websites is required.
 
 ### Step 2: Clone the repository to your computer
 
-*Cloning* means making a copy of the project onto your computer while keeping it linked to GitHub. This means any changes made can be uploaded back to the website.
+*Cloning* means making a copy of the project onto your computer while keeping it linked to GitHub. This means any changes made on your computer can be uploaded back to GitHub.
 
 1. Open the search bar on your computer
 
-2. Type **Command Prompt** (Windows) or **Terminal** (Mac)
+2. Type **Command Prompt** (Windows) or **Terminal** (Mac) and open the application
 
-3. Open the application
-
-4. Navigate to a folder where you want to store the project
-- For example, to go to your Desktop folder, type:
-
+3. Navigate to a folder where you want to store the project. For example:
 ```
 cd Desktop
 ```
 
-5. Clone your repository by typing:
+4. Clone your repository by typing the following, and replacing `yourusername` with your actual GitHub username.:
 
 ```
 git clone https://github.com/yourusername/yourusername.github.io
 ```
 
-Replace `yourusername` with your actual GitHub username.
 
-6. Open **Visual Studio Code**  
+5. Open **Visual Studio Code**  
    - Click **File** in the top-left menu
    - Click **Open Folder**
-   - Navigate to the folder named `yourusername.github.io` 
-   - Click **Open**
+   - Find the folder that was created when you ran the `git clone` command. It will be named `yourusername.github.io`
+   - Select that folder and click **Open** 
 
 ---
 
@@ -143,19 +138,18 @@ theme: minima # Jekyll's default theme
    ```
    git add .
    ```
-   This tells Git to include all the new and changed files in the next save point.
-
 
 5. Commit your changes by typing:
    ```
    git commit -m "Add resume and Jekyll config"
    ```
+> **Note:** The text inside the quotes is the *commit message*, a short description that explains what changes you made in that commit.
+
+
 6. Push (upload) your changes to GitHub by typing:
    ```
    git push
    ```
-
-> **Note ("Publish Frequently"):** Etter emphasizes that publishing should not be a special event and it should be quick. The three commands above (`add`, `commit`, `push`) is all that is needed to update your live website. 
 
 ## Step 6: View your website
 
